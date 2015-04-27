@@ -44,7 +44,8 @@ Creates a new client instance.
 * `settings`: A hash of settings that apply to all requests for the new client.
   * `username`: The username for the WordPress account.
   * `password`: The password for the WordPress account.
-  * `url`: The URL for the WordPress install.
+  * `url`: The URL for the WordPress install, e.g. `https://mydomain.com`
+	* `rpcPath`: The path for `xmprpc.php` file, e.g. `/mysecret_xmlrpc.php`
   * `host` (optional): The actual host to connect to if different from the URL, e.g., when deploying to a local server behind a firewall.
   * `blogId` (optional; default: `0`): The blog ID for the WordPress install.
 
